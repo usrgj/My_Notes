@@ -1,11 +1,26 @@
 ---
 tags: [tools]
-title: Git的使用
+title: Git
 created: '2025-04-19T12:58:31.503Z'
-modified: '2025-07-15T00:54:13.420Z'
+modified: '2025-08-02T12:02:34.417Z'
 ---
 
-# [**tutorial**](https://liaoxuefeng.com/books/git/introduction/index.html)
+Git
+
+[Tutorial](https://liaoxuefeng.com/books/git/introduction/index.html)
+
+# 0简介
+也许第一次使用git，就是复制粘贴使用了下面的命令
+```bash
+git clone https://github.com/username/repositorie.git
+```
+简单说明一下，行的意思是，克隆github上名为`usrname`用户下的名`repositorie`的仓库里的东西
+
+git是什么?github是什么?有什么关系?
+
+通俗地说,git是一个版本控制系统,而github是一个给你存放文件的仓库
+
+
 
 ### Note
 
