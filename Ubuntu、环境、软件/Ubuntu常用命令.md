@@ -2,7 +2,7 @@
 tags: [Ubuntu]
 title: Ubuntu常用命令
 created: '2025-07-17T12:55:01.096Z'
-modified: '2025-07-29T05:15:02.589Z'
+modified: '2025-08-13T13:11:13.268Z'
 ---
 
 Ubuntu常用命令
@@ -31,4 +31,7 @@ Ubuntu常用命令
 | `--color` | 彩色显示（通常默认启用） |
 |`--ignore="*.cpp"`|忽略某些文件,如"*.cpp"是忽略后缀为cpp的文件|
 |`--time-style="+%Y-%m-%d"`|自定义时间格式|
+|`mkdir <dir name>`|创建路径|
+|`cd <path>`|到指定路径|
+|`pwd`|显示当前终端所在路径|
 

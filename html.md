@@ -1,7 +1,7 @@
 ---
 title: html
 created: '2025-05-03T00:57:16.103Z'
-modified: '2025-07-31T02:07:16.739Z'
+modified: '2025-08-13T03:30:28.363Z'
 ---
 
 [html](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Reference/Elements)
@@ -49,6 +49,12 @@ int a = 1;
 ```
 
 ---
+
+
+<details>
+  <summary>折叠</summary>
+  <div>233</div>
+</details>
 
 
 111

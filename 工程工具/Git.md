@@ -2,25 +2,12 @@
 tags: [tools]
 title: Git
 created: '2025-04-19T12:58:31.503Z'
-modified: '2025-08-02T12:02:34.417Z'
+modified: '2025-08-13T13:22:52.942Z'
 ---
 
 Git
 
 [Tutorial](https://liaoxuefeng.com/books/git/introduction/index.html)
-
-# 0简介
-也许第一次使用git，就是复制粘贴使用了下面的命令
-```bash
-git clone https://github.com/username/repositorie.git
-```
-简单说明一下，行的意思是，克隆github上名为`usrname`用户下的名`repositorie`的仓库里的东西
-
-git是什么?github是什么?有什么关系?
-
-通俗地说,git是一个版本控制系统,而github是一个给你存放文件的仓库
-
-
 
 ### Note
 
@@ -75,18 +62,20 @@ git submodule add <子模块 URL> <子模块目录>
 git submodule add htps://github.com/xxx/abc.git abc
 ```
 
-创建目录
 
-`$ mkdir <dirname>`
-
-到某个目录
-
-`$ cd <path>`
-
-显示当前目录
-
-`$ pwd`
-
+`git checkout -b <new branch name>`创建新分支，并切换到新分支
 
 
 `git submodule update --init --recursive `
+
+
+|操作|命令|说明|
+|---|---|---|
+| **查看当前远程仓库** | `git remote -v`                                                     | 显示已关联的远程仓库地址（如 `origin`）。                           |
+| **移除旧远程仓库**   | `git remote remove <rep name>`                                          | 解除与旧仓库的连接（若远程名不是 `origin`，替换为对应的名称）。      |
+| **添加新远程仓库**   | `git remote add origin <新仓库URL>`                                  | 关联新仓库，例如：<br>`git remote add origin https://github.com/user/new-repo.git` |
+| **推送代码到新仓库** | `git push -u origin <分支名>`<br>（如 `git push -u origin main`）    | 首次推送需加 `-u` 关联分支，后续可直接用 `git push`。               |
+| **强制推送**（慎用） | `git push -f origin <分支名>`                                       | 覆盖远程仓库历史（需谨慎操作）。                                     |
+
+
+

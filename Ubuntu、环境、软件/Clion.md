@@ -2,7 +2,7 @@
 tags: [Ubuntu]
 title: Clion
 created: '2025-07-26T11:45:53.505Z'
-modified: '2025-07-26T12:14:46.545Z'
+modified: '2025-08-13T13:13:51.129Z'
 ---
 
 Clion
@@ -31,3 +31,11 @@ sudo rm -rf clionxxxxx
 ```
 3. 取消收藏夹中的clion
 4. 在显示应用程序（即右下角）中搜索clion，重新添加至收藏夹即可
+
+
+# Shortcuts
+|shortcut|function|
+|---|---|
+|`ctrl shift -`|选中部分完全折叠，无选中则全文|
+|``||
+|``||
