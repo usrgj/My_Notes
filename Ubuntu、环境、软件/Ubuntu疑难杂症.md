@@ -2,10 +2,28 @@
 tags: [Ubuntu]
 title: Ubuntu疑难杂症
 created: '2025-04-27T08:51:57.459Z'
-modified: '2025-07-25T07:47:29.099Z'
+modified: '2025-09-09T04:54:11.011Z'
 ---
 
 Ubuntu疑难杂症
+
+# GUI显示过小
+针对特定应用的单独缩放
+## **方法 1：使用 `GDK_SCALE` 和 `GDK_DPI_SCALE`**
+在启动命令前添加环境变量，例如：
+```bash
+GDK_SCALE=2 GDK_DPI_SCALE=0.5 application_name
+```
+- `GDK_SCALE=2`：放大 2 倍。
+- `GDK_DPI_SCALE=0.5`：避免过度放大（调整比例需实验）。
+
+## **方法 2：使用 `QT_SCALE_FACTOR`（适用于 Qt 应用）**
+```bash
+QT_SCALE_FACTOR=2 application_name  #强制缩放
+QT_AUTO_SCREEN_SCALE_FACTOR=1 your_qt_app # 自动缩放
+QT_AUTO_SCREEN_SCALE_FACTOR=1 QT_SCALE_FACTOR=1.25 your_qt_app #自动后再调整
+```
+
 
 
 

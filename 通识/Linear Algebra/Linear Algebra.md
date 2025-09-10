@@ -3,7 +3,7 @@ attachments: [Clipboard_2025-08-05-19-54-12.png, Clipboard_2025-08-07-21-05-44.p
 tags: [通识]
 title: Linear Algebra
 created: '2025-07-16T00:36:48.602Z'
-modified: '2025-09-07T14:22:33.355Z'
+modified: '2025-09-09T02:28:35.454Z'
 ---
 
 Linear Algebra
@@ -63,6 +63,37 @@ Linear Algebra
 [Lecture 30  基变换与图像压缩](#30基变换与图像压缩)
 [Lecture 31  左逆与右逆；伪逆矩阵](#31左逆与右逆；伪逆矩阵)
 [术语表](#术语表)
+
+
+# 0概念补充
+## 对角线
+对角线的概念是对方阵而言的
+（主）对角线指的是从左上角和右下角的连接线，即$a_{ii}$
+副对角线指的是从右上角和左下角的连接线
+次对角线指的是主对角线相邻的两条对角线
+
+## 三角阵
+三角阵也是对方阵而言的
+上三角，主对角线下都为0
+下三角，主对角线上都为0
+
+## 对角阵
+对方阵而言
+除对角线都为0，对角线上有一个非零元素即可
+
+数量阵，对角线上元素相等的对角阵
+单位阵，对角线上都是1的对角阵
+
+## 同型矩阵
+行数和列数都相等的两个矩阵互为同型矩阵
+
+## 对称矩阵
+$A = A^T$的矩阵称为对称矩阵
+$A^T = -A$的矩阵称为反对称矩阵，也就是对角线上必然为全0
+
+## 系数矩阵
+线性方程组的系数组成的矩阵称为系数矩阵
+
 
 
 
@@ -270,6 +301,9 @@ x+2y+z=2\\
 $$
 
 ## 矩阵乘法
+
+矩阵乘法满足 $m\times p$与$p \times n$得到一个$m\times n$的矩阵
+
 根据上面的例子，记
 $$
 \left[\begin{matrix}
@@ -1680,7 +1714,6 @@ u_{k+1} =
 \end{bmatrix}
 u_k
 $$
-
 得到矩阵A，算出特征值$\lambda _1,\lambda _2$
 求出特征向量$x_1,x_2$
 
@@ -1720,7 +1753,6 @@ x_2=
 1\\-1
 \end{bmatrix}
 $$
-
 假设向量$u = \begin{bmatrix}u_1\\u_2\end{bmatrix}$
 给出一个初值，在t=0时，$u(0) = \begin{bmatrix}1\\0\end{bmatrix}$
 
@@ -1785,7 +1817,6 @@ e^{\lambda _1 t} & 0\\
 0 & e^{\lambda _n t}
 \end{bmatrix}
 $$
-
 ## 二阶线性微分方程
 $y''+by'+ky = 0$
 添加$y' = y'$以构造
@@ -1898,7 +1929,6 @@ x_1\\\vdots
 \therefore \lambda = \overline \lambda\\
 \therefore \lambda 是实数
 $$
-
 ### 特征值的正负
 对称矩阵的 主元符号数 和其 特征值的符号数 相同
 之后通过将矩阵平移单位向量，直至改变主元符号，这时就可以推出特征值是多少
@@ -1958,7 +1988,6 @@ F_4 = {1\over2}
 1 &-i &-1 &i \\
 \end{bmatrix}
 $$
-
 其逆矩阵也就是$F_4^H$
 
 ## 快速傅里叶变换
@@ -2079,7 +2108,6 @@ Ax=\lambda x \\
 (M^{-1}AM)M^{-1}x = \lambda M^{-1}x \\
 也就是，\lambda 依然是B的特征值
 $$
-
 ## 特例: $\lambda _1 = \lambda _2$特征值相等
 ### 单位矩阵
 对于单位矩阵以及单位矩阵的倍数的矩阵，自成一类，因为无论M为什么，结果都得到单位矩阵本身
@@ -2130,15 +2158,12 @@ $A^TA = v \Sigma ^T u^T u \Sigma v^T = v \Sigma ^T \Sigma v^T = v \Sigma ^2 v^T$
 ## svd实例
 ### 例1
 对$\begin{bmatrix}4&4\\-3&3\end{bmatrix}$svd分解
-
 $$
 A^TA = \begin{bmatrix}
 25&7\\7&25
 \end{bmatrix}
 $$
 特征值是32和18，写出一组标准正交特征向量为$\begin{bmatrix}{1\over \sqrt 2}\\{1\over \sqrt 2}\end{bmatrix}\begin{bmatrix}{1\over \sqrt 2}\\-{1\over \sqrt 2}\end{bmatrix}$
-
-
 $$
 AA^T = \begin{bmatrix}32&0\\0&18\end{bmatrix}
 $$
@@ -2156,7 +2181,6 @@ A = u \Sigma v^T \\
 
 \begin{bmatrix}{1\over \sqrt 2}&{1\over \sqrt 2}\\{1\over \sqrt 2}&-{1\over \sqrt 2}\end{bmatrix}
 $$
-
 ### 例2
 奇异矩阵$\begin{bmatrix}4&3\\8&6\end{bmatrix}$
 行空间标准基$\begin{bmatrix}0.8 \\ 0.6\end{bmatrix}$
