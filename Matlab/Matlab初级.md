@@ -2,7 +2,7 @@
 tags: [Matlab]
 title: Matlab初级
 created: '2025-09-09T08:33:41.088Z'
-modified: '2025-09-09T12:30:37.772Z'
+modified: '2025-09-10T03:27:03.732Z'
 ---
 
 Matlab初级
@@ -101,6 +101,40 @@ switch 表达式
         % 所有case均不匹配时执行
 end
 ```
+
+# 基本绘图
+## 二维
+```
+x = 0 : 0.01 : 2*pi; %定义横坐标
+y = sin(x);
+figure  %画布
+plot(x,y) %绘图
+title('y = sin(x)')
+xlabel('x axis')
+ylabel('y axis')
+xlim([0 2*pi]) %规定x轴的绘制区间 
+```
+|函数|说明|
+|---|---|
+|`yyaxis()`|绘制多条线|
+|`set(line, feature, value)`|设置线的样式|
+
+## 三维
+```
+t = 0 : pi/50 : 10*pi;
+plot3(sin(t), cos(t), t);
+xlabel('');
+ylabel('');
+zlabel('');
+```
+
+## 通用
+|函数|说明|
+|---|---|
+|`grid on`|启用网格|
+|`axis square`|放缩成正方/立方坐标轴|
+
+
 
 # 命令行
 |命令|作用|

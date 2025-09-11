@@ -2,10 +2,11 @@
 tags: [Ubuntu]
 title: Ubuntu疑难杂症
 created: '2025-04-27T08:51:57.459Z'
-modified: '2025-09-09T04:54:11.011Z'
+modified: '2025-09-11T13:18:20.936Z'
 ---
 
 Ubuntu疑难杂症
+
 
 # GUI显示过小
 针对特定应用的单独缩放
@@ -251,6 +252,24 @@ sudo update-alternatives --config g++
     
 
 ---
+
+# 终端报错
+
+---
+
+报错
+```bash
+ × python setup.py egg_info did not run successfully.
+  │ exit code: 1
+  ╰─> [20 lines of output]
+      No CUDA runtime is found, using CUDA_HOME=':/usr/local/cuda-11.8'
+```
+解决
+```bash
+export CUDA_HOME=/usr/local/cuda
+```
+分析
+目录本身存在，而且nvcc -V命令也正常，可能是在配置Cuda-Home时出了问题
 
 # 快捷键
 

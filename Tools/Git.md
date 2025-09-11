@@ -2,7 +2,7 @@
 tags: [tools]
 title: Git
 created: '2025-04-19T12:58:31.503Z'
-modified: '2025-08-13T13:22:52.942Z'
+modified: '2025-09-11T12:59:33.795Z'
 ---
 
 Git
@@ -67,6 +67,14 @@ git submodule add htps://github.com/xxx/abc.git abc
 
 
 `git submodule update --init --recursive `
+
+### clone
+克隆时选择的urls将作为关联远程地址，后续与远程仓库交互时，都使用该urls对应的协议等
+比如说，通过https克隆，则无法通过ssh推送
+
+### ssh
+本地生成ssh后，在github添加秘钥
+即可通过ssh克隆和推送
 
 
 |操作|命令|说明|
