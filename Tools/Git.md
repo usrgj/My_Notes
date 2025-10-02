@@ -2,7 +2,7 @@
 tags: [tools]
 title: Git
 created: '2025-04-19T12:58:31.503Z'
-modified: '2025-09-11T12:59:33.795Z'
+modified: '2025-09-11T13:26:23.915Z'
 ---
 
 Git
@@ -41,21 +41,13 @@ git只能追踪纯文本的变化
 
 `$ git log`
 
-pull
-
-merge
-
-commit
-
- git push -u origin dev 
-
 ### [**submodule**](https://blog.csdn.net/The_friends/article/details/144848995)
 
 添加子模块
 
 在自己仓库目录下打开终端
 
-```plaintext
+```bash
 git submodule add <子模块 URL> <子模块目录>
 //子模块目录可选，若空，则添加整个库
  
@@ -75,6 +67,17 @@ git submodule add htps://github.com/xxx/abc.git abc
 ### ssh
 本地生成ssh后，在github添加秘钥
 即可通过ssh克隆和推送
+
+### 推送流程
+```bash
+git pull #确保本地与远程同步
+
+git add . #暂存
+
+git commit -m "" #提交
+
+git push #推送
+```
 
 
 |操作|命令|说明|

@@ -2,10 +2,16 @@
 tags: [Ubuntu]
 title: Ubuntu常用命令
 created: '2025-07-17T12:55:01.096Z'
-modified: '2025-08-13T13:11:13.268Z'
+modified: '2025-09-28T06:23:43.397Z'
 ---
 
 Ubuntu常用命令
+
+```bash
+tar -I 'zstd -9 -T0' -cvf archive.tar.zst dir/
+tar -I 'zstd -9 -T0' -cvf archive.tar.zst choose_frames_middle/*/*_finish.json
+
+```
 
 # apt & dpkg
 [在包相关笔记中](../通识/包.md)

@@ -2,7 +2,7 @@
 tags: [Ubuntu]
 title: Ubuntu疑难杂症
 created: '2025-04-27T08:51:57.459Z'
-modified: '2025-09-11T13:18:20.936Z'
+modified: '2025-09-12T13:29:58.724Z'
 ---
 
 Ubuntu疑难杂症
@@ -253,7 +253,7 @@ sudo update-alternatives --config g++
 
 ---
 
-# 终端报错
+# 库，路径报错
 
 ---
 
@@ -270,6 +270,20 @@ export CUDA_HOME=/usr/local/cuda
 ```
 分析
 目录本身存在，而且nvcc -V命令也正常，可能是在配置Cuda-Home时出了问题
+
+---
+
+报错
+无法找到 libdl.so 动态链接库
+解决
+```bash
+sudo apt install libc6
+
+sudo ln -s /usr/lib/x86_64-linux-gnu/libdl.so.2 /usr/lib/x86_64-linux-gnu/libdl.so
+```
+分析
+确保已经安装
+某些 Unity 版本会直接查找 libdl.so（而不是 libdl.so.2），因此需要手动创建软链接：
 
 # 快捷键
 

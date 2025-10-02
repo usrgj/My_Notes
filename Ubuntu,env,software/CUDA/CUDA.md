@@ -2,7 +2,7 @@
 tags: [Ubuntu]
 title: CUDA
 created: '2025-08-02T03:39:46.242Z'
-modified: '2025-08-02T04:03:16.970Z'
+modified: '2025-09-12T06:37:35.714Z'
 ---
 
 CUDA
@@ -73,5 +73,16 @@ source ~/.bashrc
 
 ## cudnn
 
+# 共存
+> 实现多个 CUDA 版本共存是常见的需求，驱动只需一个，多个 CUDA Toolkit 可以共存，通过环境变量切换实际使用的版本。
+
+首先确保驱动支持，一般能向下兼容
+
+## 下载
+选择好需要的版本后
+选择 runfile (local) 安装方式（便于多版本管理
+
+在第二步`  sudo sh cuda_11.3.0_*.run --toolkit --silent`
+添加两个参数，表示仅安装toolkit而不安装驱动
 
 

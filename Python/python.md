@@ -1,3 +1,9 @@
+---
+title: python
+created: '2025-04-27T08:52:48.303Z'
+modified: '2025-09-19T09:45:49.438Z'
+---
+
 # 工厂模式
 
 ## 简单工厂模式 (Simple Factory Pattern)
@@ -132,7 +138,7 @@ print(instance.do_something())  # 输出：Doing something with value 10.
 
 使用 \`class\` 关键字来定义一个新的类。类名通常采用 PascalCase 命名法（每个单词的首字母大写）。
 
-\`\`\`python
+```python
 
 class MyClass:
 
@@ -140,7 +146,7 @@ class MyClass:
 
     pass  # 使用 pass 表示空体
 
-\`\`\`
+```
 
 ### 2. 初始化方法 (\`\_\_init\_\_\`)
 
