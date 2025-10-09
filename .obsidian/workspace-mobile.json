@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ros2/2通信机制核心.md",
+                "file": "General/Linear Algebra/Linear Algebra.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2通信机制核心"
+              "title": "Linear Algebra"
+            }
+          },
+          {
+            "id": "fd185cf96eeff560",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markdown 语法.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Markdown 语法"
             }
           }
         ]
@@ -47,7 +71,7 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": true
+            "autoReveal": false
           },
           "icon": "lucide-folder-closed",
           "title": "文件列表"
@@ -108,7 +132,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Ros2/2通信机制核心.md",
+            "file": "通识/Linear Algebra/Linear Algebra.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -155,7 +179,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
@@ -166,13 +189,23 @@
   },
   "active": "80a6d58c4a26a943",
   "lastOpenFiles": [
+    "5_6part1/电子工艺实习.md",
+    "通识/Linear Algebra/Linear Algebra.md",
+    "5_6part1/习概.md",
+    "5_6part1/复变函数与积分变换.md",
+    "5_6part1/工程力学.md",
+    "5_6part1/电工学-数电.md",
+    "5_6part1/机械设计基础.md",
+    "未命名",
+    "5_6part1",
+    "Markdown 语法.md",
+    "Ros2/散的知识点.md",
+    "Sport.md",
+    "Ros2/2通信机制核心.md",
+    "工程工具/Git.md",
     "0.md",
     "text.md",
-    "Ros2/2通信机制核心.md",
     "Ros2/1概述与环境搭建.md",
-    "未命名.md",
-    "未命名",
-    "通识/Linear Algebra/Linear Algebra.md",
     "Ros2/ROS2目录.md",
     "Mermaid语法.md"
   ]
