@@ -2,7 +2,7 @@
 tags: [Ubuntu]
 title: Ubuntu常用命令
 created: '2025-07-17T12:55:01.096Z'
-modified: '2025-09-28T06:23:43.397Z'
+modified: '2025-10-08T10:05:06.790Z'
 ---
 
 Ubuntu常用命令
@@ -10,7 +10,13 @@ Ubuntu常用命令
 ```bash
 tar -I 'zstd -9 -T0' -cvf archive.tar.zst dir/
 tar -I 'zstd -9 -T0' -cvf archive.tar.zst choose_frames_middle/*/*_finish.json
+# v参数是在终端输出进度
+zstd -cd 文件名.tar.zst | tar -xf -
+```
 
+```bash
+#只清空文件，保留目录结构
+find /sdcard/Download/ -type f -delete
 ```
 
 # apt & dpkg

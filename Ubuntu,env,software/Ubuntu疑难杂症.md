@@ -2,10 +2,23 @@
 tags: [Ubuntu]
 title: Ubuntu疑难杂症
 created: '2025-04-27T08:51:57.459Z'
-modified: '2025-09-12T13:29:58.724Z'
+modified: '2025-10-03T06:19:21.912Z'
 ---
 
 Ubuntu疑难杂症
+
+# 检查磁盘
+安装smartctl
+
+# 内核问题
+```bash
+ # 查看已安装的内核版本
+dpkg --list | grep linux-image
+   # 卸载新内核（例如 6.8.0-85 和 6.8.0-84）
+sudo apt remove --purge linux-image-6.8.0-85-generic linux-image-6.8.0-84-generic
+   # 再次更新 Grub
+sudo update-grub
+   ```
 
 
 # GUI显示过小
