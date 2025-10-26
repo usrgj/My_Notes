@@ -163,6 +163,7 @@ $$
 
 ### 16 符号
 $$
+\tilde{A} \\
 \because\\
 \therefore\\
 \not= \\
