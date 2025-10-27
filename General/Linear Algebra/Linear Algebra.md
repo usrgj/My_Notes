@@ -3,7 +3,7 @@ attachments: [Clipboard_2025-08-05-19-54-12.png, Clipboard_2025-08-07-21-05-44.p
 tags: [通识]
 title: Linear Algebra
 created: '2025-07-16T00:36:48.602Z'
-modified: '2025-09-09T02:28:35.454Z'
+modified: '2025-10-27T01:07:14.543Z'
 ---
 
 Linear Algebra
@@ -96,6 +96,19 @@ $A^T = -A$的矩阵称为反对称矩阵，也就是对角线上必然为全0
 
 ## 初等矩阵
 对n阶单位矩阵E实施一次初等变换的矩阵称为n阶初等矩阵
+
+## 等价
+A经过有限次行(列)变换得到B，则称A与B行(列)等价,记为A$\underset{\sim}{r}$B。
+
+## 分块对角阵
+n阶方阵A,其分块矩阵仅在对角线上，称为分块对角矩阵
+$$
+\begin{bmatrix}
+A_1&0&0\\
+0&A_2&0\\
+0&0&A_3
+\end{bmatrix}
+$$
 
 
 
@@ -515,6 +528,19 @@ $$
 $$
 (A^T)_{ij} = A_{ji}
 \tag {5.1}
+$$
+
+分块矩阵的转置
+$$
+A = \begin{bmatrix}
+A_{11}&A_{12} \\
+A_{21}&A_{22}
+\end{bmatrix}
+
+A^T = \begin{bmatrix}
+A_{11}^T&A_{21}^T \\
+A_{12}^T&A_{22}^T
+\end{bmatrix}
 $$
 
 ### 对称矩阵

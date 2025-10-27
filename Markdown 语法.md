@@ -1,7 +1,7 @@
 ---
 title: Markdown 语法
 created: '2025-07-13T07:09:55.143Z'
-modified: '2025-08-16T01:39:49.182Z'
+modified: '2025-10-27T00:53:47.198Z'
 ---
 
 Markdown 语法
@@ -188,7 +188,8 @@ $$
 () \\
 \left(\sqrt1\right)加大括号 \\
 \left.(\sqrt1\right)\\
-\overline{z}复数
+\overline{z}复数\\
+\underset{\sim}{r} \\
 $$
 
 ### 17 希腊字母
