@@ -2,7 +2,7 @@
 tags: [Matlab]
 title: Matlab初级
 created: '2025-09-09T08:33:41.088Z'
-modified: '2025-11-03T07:17:03.461Z'
+modified: '2025-11-24T07:06:05.537Z'
 ---
 
 Matlab初级
@@ -153,17 +153,30 @@ A(:) #按列顺序平展成一列
 ## 函数
 |函数|说明|
 |---|---|
-|`zeros(int,int,int)`|创建零矩阵，参数是行，列，维度|
+|`zeros(int,[int],[int])`|创建零矩阵，参数是行，列，维度|
 |`rand(m,n)`|生成0~1的均匀分布的伪随机数|
 |`randn(m,n)`|生成标准正态分布的伪随机数|
 |`randi([min, max], m, n)`|生成均匀分布的伪随机整数|
-|`magic(int)`|生成n阶幻方|
+|`magic(int)`|生成n阶幻方，魔方阵|
 |`eye(int)`|生成n阶单位阵|
 |`repmat(matrix, int, int)`|复制某矩阵整体，行重复次数，列重复次数|
 |`ones(m,n)`|全一矩阵|
 |`find(matrix > 20)`|查找某矩阵中所有符号条件的元素的下标，返回`[m,n]`|
 |`linspace(begin, end, num)`|生成在闭区间内均匀的n个数|
 |`reshape(A, m, n)`|将矩阵改变成目标现状|
+|`fix(a+(b-a+1)*x)`|产生[a,b]上均匀分布的随机整数|
+|`vander(int:int)`|范德蒙矩阵|
+|`hilb(int)`|希尔伯特矩阵|
+|`compan(p)`|伴随矩阵,p是多项式系数矩阵|
+|`pascal(int)`|帕斯卡矩阵|
+|`diag(vec)`|以一个向量为对角线元素，构建对角矩阵|
+|`rot90(A,k)`|矩阵逆时针旋转90的k倍|
+|`fliplr(A)`|矩阵左右翻转|
+|`flipud(A)`|矩阵上下翻转|
+|`inv(A)`|逆矩阵|
+|`rank(A)`|矩阵的秩|
+|``||
+|``||
 |``||
 
 # 字符串
@@ -232,6 +245,121 @@ ans = 25
 
 # 绘图
 
+# 数值微分|数值积分
+## 非线性齐次方程组
+
+## 有约束最优化解
+## 常微分方程求解
+
+# 符号对象
+1.  符号对象建立
+`符号对象名 = sym(A)`
+该函数建立单个符号对象，A可以是任意对象
+	- `sin(sym(pi/3))`得到`ans = `$\frac{\sqrt3}{2}$
+	- 可以看到，符号计算得到一个精确的数学表达式
+2. 定义多个符号变量
+`syms <name1> <name2> <name3> ...`
+3. 符号变量四则运算
+其结果仍然是一个符号表达式
+4. 关系运算
+结果是符号关系表达式
+5. 定义域
+`assume(x<0)`
+使用assume()函数来对符号变量进行一些假设
+6. 因式分解与展开
+	- `factor(s)`
+	- ``
+	- ``
+	- ``
+7. 简化表达式
+`simplify(s)`
+8. 
+9. 
+## 符号矩阵
+1. 定义
+定义符号变量后
+用符号变量表示矩阵中的元素，以构建符号矩阵
+
+## 符号微积分
+1. `diff(f, x)`,f是符号表达式,x是指定的求导变量
+2. `int(g, x)`,g是被积函数, x是积分变量
+3. 
+4. 
+## 级数
+1. `symsum(f,value,begin,end)`
+2. 泰勒级数
+`taylor(f,value,a, Nmae,Value)`
+a表示在a点展开，
+配合`expend()`将结果展开（去掉括号）
+
+## 符号方程求解
+1. `solve(equation)`注意等于号是`==`,不写则默认等于0
+可惜solve有时得到的结果是错误的
+
+## 符号微分方程
+
+
+# 图形对象
+```matlab
+handle1 = plot(...)
+```
+绘图函数会返回图形对象的句柄，可以访问和修改它们的属性
+
+## 获取特定图形对象句柄的函数
+```
+gcf
+gca
+gco
+findobj
+```
+
+## 属性
+1. 常用公共属性
+	- Children: 该对象的子对象句柄组成的一个向量
+	- Parent: 该对象的父对象句柄
+	- Type: 该对象的类型，只读属性
+	- Tag: 标签，标识符
+2. 常用动态属性
+	- KeyPressFcn: 按下键盘按键时的响应
+	- CreateFcn: 创建时的响应
+	- DeleteFcn: 删除时的响应
+	- ButtonDownFcn: 鼠标按下的响应
+
+## 窗口
+1. 创建
+句柄变量 = figure(style1, style2, ....)
+2. 属性
+
+## 坐标
+1. 创建
+变量 = axes(style....)
+2. 属性
+	- ColorOrder: 绘制曲线的颜色出现顺序
+
+## 曲线
+1. 创建
+变量 = line(x, y, z, style1, value1,....)
+
+## 曲面
+1. 创建
+变量 = surface(x, y, z, c, style1, value1, .....)
+
+# GUI
+## 创建控件
+对象 = uicontrol('Style', class, 属性1, value1)
+### 静态属性
+1. Position
+2. String
+3. Style
+### 动态属性
+1. 所有动态属性都使用句柄'Callback'
+2. 回调函数的定义
+function func (source, eventdata) 
+end
+## 创建菜单
+
+# App设计
+命令行输入appdesigner
 
 
 # 命令行

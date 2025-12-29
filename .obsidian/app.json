@@ -1,12 +1,12 @@
 {
   "foldHeading": true,
   "foldIndent": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "livePreview": false,
   "defaultViewMode": "preview",
   "mobilePullAction": "editor:open-search",
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./附件",
+  "attachmentFolderPath": "./attachments",
   "showInlineTitle": true,
   "mobileToolbarCommands": [
     "editor:undo",
@@ -34,5 +34,9 @@
     "editor:toggle-comments"
   ],
   "readableLineLength": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "strictLineBreaks": false,
+  "propertiesInDocument": "visible",
+  "smartIndentList": false,
+  "autoConvertHtml": true
 }
