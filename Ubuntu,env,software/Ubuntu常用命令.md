@@ -19,6 +19,10 @@ zstd -cd 文件名.tar.zst | tar -xf -
 find /sdcard/Download/ -type f -delete
 ```
 
+```bash
+rsync -avh --partial --progress matlab.zst /media/gj/MyDisk/Software/
+```
+
 # apt & dpkg
 [在包相关笔记中](../通识/包.md)
 
