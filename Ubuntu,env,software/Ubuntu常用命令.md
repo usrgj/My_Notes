@@ -51,3 +51,24 @@ rsync -avh --partial --progress matlab.zst /media/gj/MyDisk/Software/
 |`cd <path>`|到指定路径|
 |`pwd`|显示当前终端所在路径|
 
+# Dell长寿法
+## 电池
+```bash
+# 查看电池状态，结合watch使用。power不是实时的，除非有大变化，否则两分钟更新一次
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+
+# 下面是Dell特定方法
+# 安装Dell Linux工具
+sudo apt install smbios-utils
+
+# 查看当前配置
+sudo smbios-battery-ctl --get-charging-cfg
+
+# 设置为主要使用交流电源
+sudo smbios-battery-ctl --set-charging-mode=primarily_ac
+
+#设置为硬性阈值
+sudo smbios-battery-ctl --set-charging-mode=custom
+sudo smbios-battery-ctl --set-custom-charge-interval=50 80
+
+```

@@ -37,6 +37,7 @@
   "newLinkFormat": "relative",
   "strictLineBreaks": false,
   "propertiesInDocument": "visible",
-  "smartIndentList": false,
-  "autoConvertHtml": true
+  "smartIndentList": true,
+  "autoConvertHtml": true,
+  "alwaysUpdateLinks": true
 }

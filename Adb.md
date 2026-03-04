@@ -18,7 +18,7 @@ sudo apt install android-tools-adb android-tools-fastboot
 插上数据线，在开发人员选项中打开adb调试
 ```bash
 #若显示设备序列号并标注为`device`，则表示连接成功
-adb devicesMarkdown Kroki
+adb devices
 ```
 
 ## 包名

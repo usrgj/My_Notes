@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "7d0c1a0dd21d23a3",
+        "id": "74be22a214dedaef",
         "type": "tabs",
         "children": [
           {
-            "id": "bd9a3d9a20eef4d6",
+            "id": "568e67496c74668d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5_6part1/工程力学/工程力学.md",
+                "file": "Flow Matching and Diffusion Models的学习笔记.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "工程力学"
+              "title": "Flow Matching and Diffusion Models的学习笔记"
+            }
+          },
+          {
+            "id": "a001225cd70360ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "临时编辑器.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "临时编辑器"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,19 +197,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "bd9a3d9a20eef4d6",
+  "active": "a001225cd70360ef",
   "lastOpenFiles": [
+    "attachments/微信图片_20260304205845_29_53.jpg",
+    "attachments/Screenshot from 2026-03-04 20-07-30.png",
+    "attachments/Pasted image 20260304200813.png",
+    "attachments/Pasted image 20260304200232.png",
+    "随手记.md",
+    "Flow Matching and Diffusion Models的学习笔记.md",
+    "深度学习，神经网络等",
+    "大二下",
+    "2026年运动目标.md",
+    "Adb.md",
+    "Ubuntu,env,software/电视.md",
+    "Python/YOLO.md",
+    "CET6.md",
+    "Ubuntu,env,software/Ubuntu常用命令.md",
+    "Ubuntu,env,software/CUDA/CUDA.md",
+    "临时编辑器.md",
+    "attachments/Screenshot from 2026-02-03 23-57-14.png",
+    "attachments",
+    "Tools/Conda.md",
+    "大二上/工程力学/工程力学.md",
     "未命名 3.base",
     "未命名 2.base",
-    "5_6part1/工程力学/工程力学.md",
     "Ideas/反射.md",
     "Python/python进阶语法.md",
     "Matlab/Matlab初级.md",
@@ -200,18 +244,11 @@
     "Soccer/足球机器人的上手使用.md",
     "0.md",
     "动手学深度学习.md",
-    "临时编辑器.md",
     "习概pre-关于八小时工作制的伪辩论.md",
-    "Adb.md",
     "Algorithm.md",
     "html.md",
     "Markdown 语法参考.md",
     "Mermaid语法.md",
-    "paddle_ocr.md",
-    "python基础语法及规范.md",
-    "python项目语法.md",
-    "README.md",
-    "Sport.md",
-    "windows疑难杂症.md"
+    "paddle_ocr.md"
   ]
 }
