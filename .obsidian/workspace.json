@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "568e67496c74668d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flow Matching and Diffusion Models的学习笔记.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Flow Matching and Diffusion Models的学习笔记"
-            }
-          },
-          {
             "id": "a001225cd70360ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时编辑器.md",
+                "file": "随手记.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "临时编辑器"
+              "title": "随手记"
+            }
+          },
+          {
+            "id": "0e45e86e905723b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "大二下/概率论与数理统计.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "概率论与数理统计"
             }
           }
         ],
@@ -205,14 +205,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a001225cd70360ef",
+  "active": "0e45e86e905723b8",
   "lastOpenFiles": [
+    "随手记.md",
+    "临时编辑器.md",
+    "大二下/概率论与数理统计.md",
+    "Flow Matching and Diffusion Models的学习笔记.md",
     "attachments/微信图片_20260304205845_29_53.jpg",
     "attachments/Screenshot from 2026-03-04 20-07-30.png",
     "attachments/Pasted image 20260304200813.png",
     "attachments/Pasted image 20260304200232.png",
-    "随手记.md",
-    "Flow Matching and Diffusion Models的学习笔记.md",
     "深度学习，神经网络等",
     "大二下",
     "2026年运动目标.md",
@@ -222,7 +224,6 @@
     "CET6.md",
     "Ubuntu,env,software/Ubuntu常用命令.md",
     "Ubuntu,env,software/CUDA/CUDA.md",
-    "临时编辑器.md",
     "attachments/Screenshot from 2026-02-03 23-57-14.png",
     "attachments",
     "Tools/Conda.md",
