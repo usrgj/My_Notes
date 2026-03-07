@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "随手记.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "随手记"
             }
-          },
-          {
-            "id": "0e45e86e905723b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大二下/概率论与数理统计.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "概率论与数理统计"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,11 +180,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0e45e86e905723b8",
+  "active": "a001225cd70360ef",
   "lastOpenFiles": [
-    "随手记.md",
+    "2026年运动目标.md",
+    "windows疑难杂症.md",
+    "Sport.md",
     "临时编辑器.md",
+    "动手学深度学习.md",
+    "随手记.md",
+    "Soccer/足球机器人的上手使用.md",
     "大二下/概率论与数理统计.md",
+    "output.html",
     "Flow Matching and Diffusion Models的学习笔记.md",
     "attachments/微信图片_20260304205845_29_53.jpg",
     "attachments/Screenshot from 2026-03-04 20-07-30.png",
@@ -217,7 +198,6 @@
     "attachments/Pasted image 20260304200232.png",
     "深度学习，神经网络等",
     "大二下",
-    "2026年运动目标.md",
     "Adb.md",
     "Ubuntu,env,software/电视.md",
     "Python/YOLO.md",
@@ -242,14 +222,10 @@
     "未命名 2.canvas",
     "未命名 1.canvas",
     "未命名.canvas",
-    "Soccer/足球机器人的上手使用.md",
     "0.md",
-    "动手学深度学习.md",
     "习概pre-关于八小时工作制的伪辩论.md",
     "Algorithm.md",
     "html.md",
-    "Markdown 语法参考.md",
-    "Mermaid语法.md",
-    "paddle_ocr.md"
+    "Markdown 语法参考.md"
   ]
 }
