@@ -27,6 +27,7 @@ mypackage/
       math_ops.py
 ```
 ## 包导入
+使用`from .func`是相对于该文件的路径，而使用`from func`则是相对于运行程序时的路径
 **方法1**
 ```python
 # 在init中声明后，直接导入

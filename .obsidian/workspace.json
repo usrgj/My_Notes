@@ -4,16 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "74be22a214dedaef",
+        "id": "319969b740bf4cb3",
         "type": "tabs",
         "children": [
           {
-            "id": "a001225cd70360ef",
+            "id": "631ce5f75afc3f57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随手记.md",
+                "file": "Ubuntu,env,software/Ubuntu常用命令.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ubuntu常用命令"
+            }
+          },
+          {
+            "id": "1a037cc8ee5a6447",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "随手记"
+              "title": "0"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,14 +205,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a001225cd70360ef",
+  "active": "1a037cc8ee5a6447",
   "lastOpenFiles": [
-    "2026年运动目标.md",
-    "windows疑难杂症.md",
-    "Sport.md",
+    "Ubuntu,env,software/Ubuntu常用命令.md",
+    "0.md",
+    "attachments/Pasted image 20260609200240.png",
     "临时编辑器.md",
+    "Ubuntu,env,software/Ubuntu疑难杂症.md",
+    "习概pre-关于八小时工作制的伪辩论.md",
     "动手学深度学习.md",
     "随手记.md",
+    "2026年运动目标.md",
+    "Adb.md",
+    "Tools/Git.md",
+    "Python/python项目语法.md",
+    "Tools/Conda.md",
+    "windows疑难杂症.md",
+    "Sport.md",
     "Soccer/足球机器人的上手使用.md",
     "大二下/概率论与数理统计.md",
     "output.html",
@@ -198,15 +232,12 @@
     "attachments/Pasted image 20260304200232.png",
     "深度学习，神经网络等",
     "大二下",
-    "Adb.md",
     "Ubuntu,env,software/电视.md",
     "Python/YOLO.md",
     "CET6.md",
-    "Ubuntu,env,software/Ubuntu常用命令.md",
     "Ubuntu,env,software/CUDA/CUDA.md",
     "attachments/Screenshot from 2026-02-03 23-57-14.png",
     "attachments",
-    "Tools/Conda.md",
     "大二上/工程力学/工程力学.md",
     "未命名 3.base",
     "未命名 2.base",
@@ -216,16 +247,10 @@
     "未命名 1.base",
     "未命名.base",
     "未命名 5.canvas",
-    "2025-11-24.md",
     "未命名 4.canvas",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
-    "未命名.canvas",
-    "0.md",
-    "习概pre-关于八小时工作制的伪辩论.md",
-    "Algorithm.md",
-    "html.md",
-    "Markdown 语法参考.md"
+    "未命名.canvas"
   ]
 }

@@ -55,7 +55,7 @@ rsync -avh --partial --progress matlab.zst /media/gj/MyDisk/Software/
 ## 电池
 ```bash
 # 查看电池状态，结合watch使用。power不是实时的，除非有大变化，否则两分钟更新一次
-upower -i /org/freedesktop/UPower/devices/battery_BAT0
+upower -i $(upower -e | grep BAT)
 
 # 下面是Dell特定方法
 # 安装Dell Linux工具
@@ -71,4 +71,20 @@ sudo smbios-battery-ctl --set-charging-mode=primarily_ac
 sudo smbios-battery-ctl --set-charging-mode=custom
 sudo smbios-battery-ctl --set-custom-charge-interval=50 80
 
+```
+
+# 字体
+## 常用字体
+宋体和黑体直接从win复制过来`simsun.ttc` `simhei.ttf`
+```bash
+
+```
+微软的 corefonts（包含 Times New Roman, Arial, Courier New 等），你可以通过终端直接安装。
+```bash
+sudo apt update
+sudo apt install ttf-mscorefonts-installer
+```
+更新字体缓存
+```bash
+sudo fc-cache -f -v
 ```

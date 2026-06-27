@@ -10,6 +10,11 @@ Conda
 规定
 `<>`的参数为可选，`[]`的参数必填
 
+关闭自动激活base
+```bash
+conda config --set auto_activate_base false
+```
+
 ## env
 |命令|作用|
 |---|---|

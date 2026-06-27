@@ -13,6 +13,11 @@ Git
 
 git只能追踪纯文本的变化
 
+#### 分支管理
+创建并切换
+`git switch -c`
+切换
+`git switch `
 ### 配置本地信息
 
 `$ git config --global user.name "Your Name"`
